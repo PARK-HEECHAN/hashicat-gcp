@@ -1,5 +1,5 @@
 module "vpc" {
-  source  = "app.terraform.io/gmlcks/network/google//modules/subnets"
+  source  = "app.terraform.io/gmlcks/network/google"
   version = "3.4.0"
   # insert required variables here
 
