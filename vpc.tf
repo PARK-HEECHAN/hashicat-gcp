@@ -4,7 +4,7 @@ module "network" {
   # insert required variables here
 
   project_id   = var.project
-  network_name = "gaurav-network"
+  network_name = "gaurav-network1"
 
   subnets = [
       {
